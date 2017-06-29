@@ -1,0 +1,32 @@
+{
+    "name": "ericlagarda/langman-gui",
+    "description": "Manage language files with ease.",
+    "keywords": [
+        "laravel",
+        "localization",
+        "multilingual"
+    ],
+    "homepage": "https://github.com/ericlagarda/langman-gui",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Said",
+            "email": "theMohamedSaid@gmail.com",
+            "homepage": "https://themsaid.com"
+        },
+        {
+            "name": "Eric Lagarda",
+            "email": "dev@ericlagarda.com",
+            "homepage": "https://ericlagarda.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/translation": "~5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "EricLagarda\\LangmanGUI\\": "src"
+        }
+    }
+}
